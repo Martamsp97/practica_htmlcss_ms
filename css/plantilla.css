@@ -1,0 +1,123 @@
+header {
+    width: 100%;
+    position: sticky;
+
+    aside {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+
+        .contacto {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0;
+
+            li {
+                width: 100%;
+                text-align: center;
+
+                a {
+                    display: inline-block;
+                    color: white;
+                    text-decoration: none;
+                    gap: var(--gap);
+
+                    span {
+                        font-family: var(--primary-font);
+                        font-size: 0.75rem;
+                    }
+
+                    i {
+                        color: var(--primary-color);
+                        font-size: var(--font-size);
+                        margin-right: 0.25rem;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    .contacto li:first-child {
+        text-align: left;
+    }
+
+    .contacto li:first-child {
+        text-align: right;
+    }
+
+    .wrapped {
+
+        .hamburger {
+            cursor: pointer;
+            width: 3rem;
+            margin-top: 0.625rem;
+            display: none;
+
+            div {
+                width: 1.5rem;
+                height: 0.1875rem;
+                background-color: var(--secondary-color);
+                margin: 0.25rem 0;
+                opacity: 0.2;
+            }
+        }
+
+        .container {
+            display: flex;
+
+
+            figure {
+                justify-content: left;
+                width: 120px;
+
+                a {
+                    display: block;
+                    width: 120px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+            }
+
+            nav {
+                width: 100%;
+
+                align-content: center;
+
+
+
+
+                ul {
+                    list-style: none;
+                    display: flex;
+                    width: 100%;
+                    justify-content: right;
+
+                    li {
+
+                        align-content: center;
+
+                        a {
+                            display: inline-block;
+                            color: black;
+                            text-decoration: none;
+                            text-align: center;
+                            margin-bottom: 10px;
+                            background-color: transparent;
+                            border-radius: 0.3125rem;
+                            transition: 0.5s;
+                            padding: 10px 10px;
+                            color: var(--secondary-color);
+                            opacity: 0.3;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #fa573a;
+    --secondary-color: #21242e;
+    --primary-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Handlee', sans-serif;
+    --text-color: black;
+    --gap: 1rem;
+    --font-size: 1rem;
+}
+
+.container {
+    max-width: 75rem;
+    margin: 0 12.125rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: var(--font-size);
+}
