@@ -115,3 +115,35 @@ header {
         }
     }
 }
+
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+    width: 100%;
+    position: sticky;
+
+    aside {
+        width: 100%;
+        font-size: 0.75rem;
+        padding: 1rem 0;
+
+        ul {
+            display: flex;
+
+            hr {
+                display: inline-block;
+                width: 0.5rem;
+                padding: 0rem;
+                margin-left: 0.5rem;
+                margin-right: 0.5rem;
+
+            }
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
