@@ -12,14 +12,16 @@ header {
             padding: 1rem 0;
 
             li {
-                width: 100%;
-                text-align: center;
+
+
+
 
                 a {
-                    display: inline-block;
+                    display: block;
                     color: white;
                     text-decoration: none;
                     gap: var(--gap);
+
 
                     span {
                         font-family: var(--primary-font);
@@ -36,14 +38,6 @@ header {
             }
 
         }
-    }
-
-    .contacto li:first-child {
-        text-align: left;
-    }
-
-    .contacto li:first-child {
-        text-align: right;
     }
 
     .wrapped {
