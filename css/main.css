@@ -1,0 +1,40 @@
+.hero {
+    background-color: #666;
+    background-image: url(../images/fondo.jpg);
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+
+    .align {
+        padding: 12vh 0;
+
+        h1 {
+            font-family: var(--secondary-font);
+            color: white;
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        h5 {
+            color: var(--primary-color);
+            font-size: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            color: white;
+            font-size: 0.75rem;
+        }
+        ul{
+            display:flex;
+            justify-content:space-between;
+            width: 100px;
+            a{
+                display: inline-block;
+                color:white;
+                text-decoration: none;
+            }
+        }
+    }
+}

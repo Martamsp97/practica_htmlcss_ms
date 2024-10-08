@@ -7,3 +7,6 @@
 /*css con elementos en común*/
 @import url(./layout.css);
 @import url(./plantilla.css);
+
+/*css main con el resto de la página*/
+@import url(./main.css)
