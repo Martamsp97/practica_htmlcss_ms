@@ -63,11 +63,7 @@
                 padding: 0.25rem;
             }
 
-            h3 {
-                font-size: 0.75rem;
-                font-weight: 700;
-                margin: 5px 0;
-            }
+
 
             p {
                 font-size: 0.75rem;
@@ -95,12 +91,13 @@
 #aboutus {
     text-align: center;
     margin-top: 2rem;
-    margin-bottom: 120px;
+    margin-bottom: 6.25rem;
 
     .about {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: var(--gap);
+        margin-top: 1rem;
 
         figure {
             width: 15.625rem;
@@ -122,6 +119,28 @@
             }
         }
 
+        .columnaizq {
+            text-align: left;
+
+            p {
+                font-size: 0.75rem;
+            }
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                color: white;
+                font-size: 0.6rem;
+
+                i {
+                    margin-left: 5px;
+                }
+
+                &:hover {
+                    color: var(--primary-color);
+                }
+            }
+        }
 
     }
 }

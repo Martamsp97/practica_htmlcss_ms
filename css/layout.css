@@ -38,9 +38,10 @@ body {
     padding: 0.625rem;
     background-color: var(--primary-color);
     border: 0.0625rem solid var(--primary-color);
-   
+
 
     a {
+        display: inline-block;
         color: white;
         text-decoration: none;
         font-size: 0.6rem;
@@ -64,10 +65,11 @@ h2 {
         color: var(--primary-color);
     }
 }
+
 .ornamento {
     display: inline-block;
     margin-top: 5px;
-text-align: center;
+    text-align: center;
 
     hr {
         background-color: var(--primary-color);
@@ -85,4 +87,16 @@ text-align: center;
         top: -0.5rem;
         font-size: 0.75rem;
     }
+}
+
+h3 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+h4 {
+    color: var(--primary-color);
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
 }
