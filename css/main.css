@@ -49,11 +49,19 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: var(--gap);
+        justify-content: space-between;
 
         article {
-            padding-left: 1rem;
+            padding: 0.75rem 1rem;
             text-align: left;
-            border-left: 1px solid black;
+            border-left: 2px solid #97969648;
+
+            i {
+                color: var(--primary-color);
+                font-size: 0.75rem;
+                border: 1px solid var(--primary-color);
+                padding: 0.25rem;
+            }
 
             h3 {
                 font-size: 0.75rem;
@@ -70,8 +78,10 @@
                 font-size: 0.6rem;
                 color: var(--primary-color);
                 font-weight: 700;
-                i{
-                    padding-left:2px;
+
+                i {
+                    padding-left: 2px;
+                    border: none;
                 }
             }
 
@@ -80,4 +90,9 @@
     }
 
 
+}
+
+#aboutus {
+    text-align: center;
+    margin-top: 2rem;
 }
