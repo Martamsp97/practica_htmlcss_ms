@@ -36,15 +36,32 @@
 
                      li {
                          width: 100%;
-                         border-bottom: 2px solid  rgba(205, 205, 205, 0.581);
+                         border-bottom: 2px solid rgba(205, 205, 205, 0.581);
 
-                         }
                      }
-
-
                  }
+
+
              }
          }
-         
      }
- 
+
+
+     #ourservices {
+         .articulos {
+
+            grid-template-columns: 1fr 1fr;
+
+
+
+             article:last-child {
+                 grid-column: 1/-1;
+
+             }
+
+         }
+
+
+     }
+
+ }
