@@ -95,4 +95,33 @@
 #aboutus {
     text-align: center;
     margin-top: 2rem;
+    margin-bottom: 120px;
+
+    .about {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--gap);
+
+        figure {
+            width: 15.625rem;
+            border: 2px solid var(--primary-color);
+            rotate: 10deg;
+            height: 10.82125rem;
+
+            img {
+                width: 100%;
+                rotate: -10deg;
+            }
+
+            &:hover {
+                rotate: 0deg;
+
+                img {
+                    rotate: 0deg;
+                }
+            }
+        }
+
+
+    }
 }
