@@ -1,0 +1,95 @@
+ @media (min-width: 601px) and (max-width: 768px) {
+     .container {
+         max-width: 48rem;
+         margin: 0 3rem;
+     }
+
+     header {
+
+         span {
+             display: none;
+         }
+
+         .wrapped {
+
+             .container {
+                 display: flex;
+                 flex-wrap: wrap;
+
+
+                 .hamburger {
+                     margin-left: 500px;
+                     flex-grow: 2;
+                     display: grid;
+                     justify-items: end;
+                     gap:2px;
+
+                 }
+
+
+
+
+                 figure {
+                     justify-content: left;
+                     width: 120px;
+
+                     a {
+                         display: block;
+                         width: 120px;
+
+                         img {
+                             width: 100%;
+                         }
+                     }
+
+                 }
+             }
+
+             nav {
+                 width: 100%;
+
+                 align-content: center;
+
+
+
+
+                 ul {
+                     list-style: none;
+                     display: flex;
+                     flex-wrap: wrap;
+                     flex-direction: column;
+                     justify-content: center;
+
+                     li {
+
+                         align-content: center;
+
+                         a {
+                             display: block;
+                             color: rgb(205, 205, 205);
+                             text-decoration: none;
+                             text-align: center;
+                             margin-bottom: 10px;
+                             background-color: transparent;
+                             border-radius: 0.3125rem;
+                             transition: 0.5s;
+                             padding: 10px 10px;
+
+
+
+                             span {
+                                 color: var(--primary-color);
+                             }
+
+                             &:hover {
+                                 color: var(--primary-color);
+                             }
+                         }
+                     }
+
+
+                 }
+             }
+         }
+     }
+ }

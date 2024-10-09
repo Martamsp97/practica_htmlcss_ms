@@ -41,29 +41,29 @@ header {
     }
 
     .wrapped {
-
-        .hamburger {
-            cursor: pointer;
-            width: 3rem;
-            margin-top: 0.625rem;
-            display: none;
-
-            div {
-                width: 1.5rem;
-                height: 0.1875rem;
-                background-color: var(--secondary-color);
-                margin: 0.25rem 0;
-                opacity: 0.2;
-            }
-        }
-
         .container {
             display: flex;
+
+            .hamburger {
+                cursor: pointer;
+                width: 3rem;
+                margin-top: 0.625rem;
+                display: none;
+
+                div {
+                    width: 1.5rem;
+                    height: 0.1875rem;
+                   
+                    background-color: rgba(205, 205, 205, 0.581);
+                }
+            }
+
+
 
 
             figure {
                 justify-content: left;
-                width: 120px;
+                width: 7.5rem;
 
                 a {
                     display: block;
@@ -154,5 +154,15 @@ footer {
                 }
             }
         }
+    }
+}
+
+.up {
+    a {
+        color: var(--primary-color);
+        position: fixed;
+        top: 535px;
+        left: 950px;
+        font-size: 2rem;
     }
 }
