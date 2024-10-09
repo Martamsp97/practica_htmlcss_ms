@@ -53,7 +53,6 @@ header {
                 div {
                     width: 1.5rem;
                     height: 0.1875rem;
-                   
                     background-color: rgba(205, 205, 205, 0.581);
                 }
             }
@@ -67,7 +66,7 @@ header {
 
                 a {
                     display: block;
-                    width: 120px;
+                    width: 7.5rem;
 
                     img {
                         width: 100%;
@@ -161,8 +160,8 @@ footer {
     a {
         color: var(--primary-color);
         position: fixed;
-        top: 535px;
-        left: 950px;
+        top: 33.4375rem;
+        left: 59.375rem;
         font-size: 2rem;
     }
 }
