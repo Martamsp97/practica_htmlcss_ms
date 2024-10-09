@@ -18,7 +18,7 @@
 
 
                 .hamburger {
-                    margin-left: 31.25rem;
+                    margin-left: 40%;
                     flex-grow: 2;
                     display: grid;
                     justify-items: end;
@@ -49,6 +49,8 @@
         height: 60vh;
 
         .align {
+            padding: 18vh 0;
+
             h1 {
                 font-size: 1.5rem;
             }
@@ -79,8 +81,8 @@
 
     .up {
         a {
-            top: 33.125rem;
-            left: 45.625rem;
+            top: 530px;
+            left: 700px;
         }
     }
 
@@ -134,22 +136,60 @@
         }
     }
 
+    .hero {
+        height: 80vh;
+
+        .align {
+            padding: 30vh 0;
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            h5 {
+                font-size: 1rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
 
     #ourservices {
         .articulos {
             display: block;
+
             article {
                 border-bottom: 2px solid #97969648;
                 border-left: none;
-    
+
+            }
+        }
+    }
+
+    #aboutus {
+
+        .about {
+            display: block;
+
+            figure {
+                min-width: 350px;
+                margin: 0 auto;
+            }
+
+            .columnaizq {
+                margin-top: 100px;
+            }
         }
 
     }
 
     .up {
         a {
-            top: 33.125rem;
-            left: 45.625rem;
+            position: fixed;
+            top: 530px;
+            left: 540px;
         }
     }
 
