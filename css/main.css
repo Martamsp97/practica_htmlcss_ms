@@ -26,15 +26,58 @@
             color: white;
             font-size: 0.75rem;
         }
-        ul{
-            display:flex;
-            justify-content:space-between;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
             width: 100px;
-            a{
+
+            a {
                 display: inline-block;
-                color:white;
+                color: white;
                 text-decoration: none;
             }
         }
     }
+}
+
+#ourservices {
+    text-align: center;
+    margin-top: 2rem;
+
+    .articulos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--gap);
+
+        article {
+            padding-left: 1rem;
+            text-align: left;
+            border-left: 1px solid black;
+
+            h3 {
+                font-size: 0.75rem;
+                font-weight: 700;
+                margin: 5px 0;
+            }
+
+            p {
+                font-size: 0.75rem;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 0.6rem;
+                color: var(--primary-color);
+                font-weight: 700;
+                i{
+                    padding-left:2px;
+                }
+            }
+
+        }
+
+    }
+
+
 }

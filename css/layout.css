@@ -55,3 +55,34 @@ body {
         }
     }
 }
+
+h2 {
+    font-family: var(--secondary-font);
+    text-align: center;
+
+    span {
+        color: var(--primary-color);
+    }
+}
+.ornamento {
+    display: inline-block;
+    margin-top: 5px;
+text-align: center;
+
+    hr {
+        background-color: var(--primary-color);
+        width: 4.375rem;
+        border: none;
+        height: 1.5px;
+        margin: 0;
+
+    }
+
+    p {
+        font-weight: 700;
+        color: var(--primary-color);
+        position: relative;
+        top: -0.5rem;
+        font-size: 0.75rem;
+    }
+}
